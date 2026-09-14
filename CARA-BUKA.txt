@@ -1,0 +1,32 @@
+FAZLIL PORTFOLIO — PLAY MODE + QUICK VIEW
+
+CARA BUKA
+1. Extract ZIP ini.
+2. Buka folder FAZLIL-Portfolio-RPG dalam VS Code.
+3. Pasang extension Live Server jika belum ada.
+4. Klik kanan index.html > Open with Live Server.
+5. Klik PRESS START untuk pilih mod, atau PLAY MODE pada navigation.
+
+Jangan buka HTML melalui double-click sahaja. Laluan /assets/ dan /projects/
+memerlukan local HTTP server dengan folder ini sebagai root.
+
+Alternatif jika Python dipasang: buka terminal dalam folder ini,
+jalankan python -m http.server 8000 dan buka http://localhost:8000
+
+KAWALAN
+WASD / arrow keys: bergerak. E: interaksi. Enter/Space: teruskan dialog.
+Esc: tutup dialog/menu. Telefon: directional pad dan butang Interact.
+QUICK VIEW membuka portfolio biasa. RETURN TO HUB kembali ke RPG.
+
+EDIT KANDUNGAN
+content.js: maklumat projek, gambar/video dan contact.
+rpg-data.js: dialog NPC, quest dan kedudukan objek.
+assets/: letak portrait, screenshot dan video. Rujuk /assets/nama-fail.webp.
+rpg.js / rpg-engine.js: gameplay, kamera, collision dan input.
+rpg.css: gaya Play Mode. style.css: gaya portfolio asal.
+modes.js / modes.css: pilihan mod dan integrasi halaman.
+
+Placeholder masih memerlukan portrait, contact dan maklumat/media projek sebenar.
+Kemajuan disimpan dalam sesi pelayar. Tutorial menggunakan localStorage.
+Bunyi bermula OFF. Sambungan internet digunakan untuk font Google; font
+fallback digunakan jika tiada internet. Tiada pemasangan npm diperlukan.
