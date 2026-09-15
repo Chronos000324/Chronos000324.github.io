@@ -1,0 +1,45 @@
+FAZLIL — WEBSITE PENUH + PLAY MODE + ADMIN
+
+Pakej ini menggabungkan versi portfolio yang dibina dalam chat dengan admin
+tambahan. Ia bukan backup langsung daripada GitHub. Perubahan yang kamu
+buat sendiri di GitHub selepas itu mungkin belum ada dalam pakej ini.
+
+CARA UPLOAD WEBSITE PENUH
+1. Extract ZIP ini ke satu folder.
+2. Buka folder tersebut sehingga kamu nampak index.html, content.js,
+   folder assets, play, projects dan admin.
+3. Di halaman UTAMA repository GitHub, pilih Add file > Upload files.
+4. Pilih semua ISI folder tadi dan drag ke halaman upload.
+   Jangan drag folder pembungkus luar. Jangan upload ZIP terus.
+   Kekalkan subfolder assets, play, projects dan admin bersama isinya.
+5. Commit changes. Tidak perlu padam repository.
+6. Jika GitHub Pages sudah aktif, tunggu penerbitan selesai.
+
+Jika kamu sudah mengedit content.js atau gambar sendiri di GitHub,
+upload folder admin SAHAJA untuk mengekalkan kandungan terbaru kamu.
+
+BUKA ADMIN
+Selepas upload, buka alamat website kamu dan tambah /admin/.
+Contoh selepas pemasangan: https://chronos000324.github.io/admin/
+Untuk menyimpan perubahan, sediakan token GitHub khusus repository.
+Ikut langkah dalam PANDUAN-ADMIN.md. Jangan hantar token melalui chat.
+
+PREVIEW DALAM KOMPUTER
+Buka folder ini dalam VS Code dan gunakan Live Server pada index.html.
+Jangan buka HTML melalui double-click sahaja kerana laman menggunakan
+laluan bermula dari root website. Mod Cuba editor dahulu tidak memerlukan
+token, tetapi tidak menyimpan perubahan ke website.
+
+TERMASUK
+- QUICK VIEW: semua bahagian portfolio asal.
+- PLAY MODE: hub RPG, NPC, quest, kawalan sentuh dan empat portal projek.
+- Empat halaman case study.
+- Admin: portrait, contact, teks projek, cover dan screenshot.
+
+HAD VERSI INI
+Maklumat dan media yang belum dibekalkan masih menggunakan placeholder.
+Admin belum mengedit teks hero/About Me atau dialog NPC.
+Video menggunakan pautan, bukan upload fail video besar.
+Simpan ke GitHub diuji menggunakan respons simulasi; belum diuji menggunakan
+token akaun kamu. Semakan visual pelayar tidak dapat diselesaikan kerana
+akses pelayar ditolak. Pakej ini tidak menerbitkan apa-apa secara automatik.
