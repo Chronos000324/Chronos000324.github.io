@@ -1,11 +1,11 @@
 // Updated using FAZLIL Content Studio.
 window.PORTFOLIO = {
-  "portrait": "",
+  "portrait": "/assets/uploads/1789779048103-eea0662c-246e-4f7e-ae5c-05c29161dca1.webp",
   "contacts": {
     "email": "quantumit.lina@gmail.com",
-    "linkedin": "",
-    "github": "",
-    "itch": ""
+    "linkedin": "https://www.linkedin.com/in/mohd-fazlil",
+    "github": "https://tmbstudio.my",
+    "itch": "https://www.linkedin.com/in/mohd-fazlil"
   },
   "projects": [
     {
